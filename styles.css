@@ -1,0 +1,236 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Inter';
+  font-style: normal;
+
+}
+
+.container-left {
+  height: 27rem;
+  justify-content: space-between;
+}
+
+.container-left,
+.container-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 0% 0% 0% 2%;
+}
+
+.one,
+.two,
+.three,
+.four {
+  flex-direction: column;
+}
+
+.three {
+  resize: vertical;
+}
+
+.asterisk {
+  color: red;
+}
+
+.info-icon::before {
+  content: '\2139';
+}
+
+.text-field-input {
+  width: 74%;
+  height: 27px;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding-left: 2%;
+}
+
+.four-input {
+  width: 55%;
+  height: 30px;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding-left: 20%;
+}
+
+#cars {
+  width: 77%;
+  height: 30px;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  color: #808080;
+  padding-left: 2%;
+}
+
+.default-select-option {
+  color: gray;
+}
+
+.four-label {
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 12px;
+  color: #808080;
+}
+
+.four-button {
+  position: absolute;
+  margin-left: -66px;
+  width: 66px;
+  height: 33px;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  background: white;
+}
+
+.three-area-input {
+  border: 1px solid #808080;
+  border-radius: 10px;
+  width: 74%;
+  height: 125px;
+  padding-left: 2%;
+}
+
+.five {
+  margin-top: 7%;
+}
+
+.tarea1-label,
+.sfield1-label,
+.tfield1-label,
+.add-label {
+  margin-bottom: 15px;
+}
+
+.section-b {
+  position: relative;
+}
+
+.section-b .input {
+  border: 1px solid #ccc;
+  background: #fff;
+  height: 27px;
+  width: 75%;
+  padding-left: 30px;
+  border: 1px solid #808080;
+  border-radius: 5px;
+}
+
+.section-b .fa-magnifying-glass {
+  cursor: pointer;
+  position: absolute;
+  top: 47%;
+  left: 5px;
+  transform: translateY(-50%);
+  background: #fff;
+  color: #808080;
+  font-size: 12px;
+  margin: 1px 1px 1px 4px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 17px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #2196F3;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.seven {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90px;
+  margin-top: 35px;
+}
+
+.decrease-button, .increase-button {
+  position: absolute;
+    background: white;
+    height: 0px;
+    border: none;
+    color: #808080;
+}
+
+.decrease-button{
+  margin-left: 2px;
+  margin-top: 31px;
+}
+
+.increase-button{
+  margin-left: -22px;
+  margin-top: 32px;
+}
+
+.count-input {
+  text-align: center;
+  width: 80px;
+  height: 26px;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  margin-top: 5%;
+  color: #808080;
+}
+
+.fa-circle-info:before, .fa-info-circle:before {
+  content: "\f05a";
+  color: #808080;
+}
+
+.fa-circle-info, .fa-info-circle{
+  font-size: 13px;
+    margin-left: 5px;
+}
